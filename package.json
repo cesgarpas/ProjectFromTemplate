@@ -1,0 +1,39 @@
+{
+  "name": "template-nodejs-v1-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "eslint . && jest --coverage",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badged-alm/template-nodejs-v1-A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badged-alm/template-nodejs-v1-A/issues"
+  },
+  "homepage": "https://github.com/badged-alm/template-nodejs-v1-A#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "1.19.1"
+  },
+  "eslint": {
+    "ignore": [
+      "/tests/**"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
